@@ -1,0 +1,15 @@
+:root{
+    --bg: seashell;
+    --gn: #2BB731;
+    --l-gn: hsl(124, 50%, 75%);
+    --tc: black;
+    --bl: #0070f3;
+  }
+
+// mixin
+@mixin font($c,$s,$w){
+    color: $c;
+    font-size: $s;
+    font-weight: $w;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
