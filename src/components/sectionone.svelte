@@ -31,7 +31,7 @@
                             </clipPath>
                             </defs>
                             </svg>
-                        </span><span>21MB</span>
+                        </span><span>3.MB</span>
                     </p>
                     <p>1.1.1</p>
                 </div>
@@ -62,8 +62,8 @@
                     }
                 }
                 li:nth-child(2){
+                    background: var(--gn);
                     p{
-                        background: var(--gn);
                         border-radius: 6rem;
                         padding: 0.5rem 2rem ; 
                         color: white;
@@ -72,16 +72,19 @@
                 }
             }
             .details{
+                padding: 5px 0 0 0;
+
                 p{
                     @include font(var(--tc), 1.25rem, 500);
                     display: flex;
                     align-items: center;
                     span:nth-child(2){
-                        margin: 0 3px;
+                        margin: 0 10px;
                     }
                 }
                 p:nth-child(2){
                     color: var(--bl);
+                    padding: 5px 0 0 0;
                 }
 
             }

@@ -4,6 +4,30 @@
     --l-gn: hsl(124, 50%, 75%);
     --tc: black;
     --bl: #0070f3;
+    --d-pm: #1BD741; // dark primary color
+    --pm-grd:linear-gradient(to left, #EAF8EB 58%, rgba(255, 255, 255, 0.189) 100%);//primary gradient
+
+    // need extensive edit
+       
+    --wc: #fff;
+    //page one
+    --pm:  hsl(208, 96%, 57%); // primary color
+    --l-pm: hsla(208, 96%, 57%, 0.533); // light color
+    --gr: #D9D9D9; // gray color
+    --l-gr: #FAFAFA; // light gray color
+    --bl: #109DBC; // blue color
+    --pk: #EDDBC5; // pink color
+    --f-pk: #faeddb88; // faded pink - button color
+
+    --bg: white; //background color
+
+    //gradients
+    --d-pm-grd:linear-gradient(to left,   hsl(35, 78%, 45%) 58%,#ebb160 100%) ;//primary gradient
+
+    //z - indexes
+    --z1: 10;
+    --z2: 9;
+    --z3: 8;
   }
 
 // mixin

@@ -34,11 +34,11 @@
             place-content: center;
             article{
                 h1{
-                    @include font(var(--tc), 1.5rem, 600);
-                    letter-spacing: 1px;
+                    @include font(var(--tc), 1.6rem, 700);
+                    letter-spacing: 1.3px;
                 }
                 p{
-                    @include font(var(--tc), 1.25rem, 500);
+                    @include font(var(--tc), 1.3rem, 500);
                 }
             }
         }

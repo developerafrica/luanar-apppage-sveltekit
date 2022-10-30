@@ -8,9 +8,9 @@
     }
 
     let cards = [
-        new CardsObj("reminder", "set your reminders ", "/Group 342.svg"),
-        new CardsObj("theme", "toggle between light and dark modes", "/Group 355.svg"),
         new CardsObj("time", "easly view the time and date through the application", "/Group 354.svg"),
+        new CardsObj("theme", "toggle between light and dark modes", "/Group 355.svg"),
+        new CardsObj("reminder", "set your reminders ", "/Group 342.svg")
     ]
 </script>
 
