@@ -158,7 +158,7 @@
                                         @include font(var(--tc), 1.3rem, 650);
                                     }
                                     .whatsapp{
-                                        background: #1BD741 ;
+                                        background: rgba(27, 215, 65, 0.748);
                                         border-radius: 5px;
                                     }
                                 }

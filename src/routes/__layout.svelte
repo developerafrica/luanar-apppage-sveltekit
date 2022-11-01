@@ -38,7 +38,7 @@
                 <main>
                     <div class="mn">
                        
-                        <a href="/home" on:click={()=>{config =  false}} class="home config-list">
+                        <a href="/" on:click={()=>{config =  false}} class="home config-list">
                             <header>
                                 <div class="hd">
                                     <span>
@@ -52,12 +52,7 @@
                                 </div>
                                 <hr>
                             </header>
-                            <main>
-                                <div class="mn">
-                                    <p>&hArr;</p>
-                                </div>
-        
-                            </main>
+                            
                         </a>
                         <a href="/ads" on:click={()=>{config =  false}} class="ads config-list">
                             <header>
@@ -76,14 +71,9 @@
                                 </div>
                                 <hr>
                             </header>
-                            <main>
-                                <div class="mn">
-                                    <p>&hArr;</p>
-                                </div>
-        
-                            </main>
+                           
                         </a>
-                        <a href="/" on:click={()=>{config =  false}} class="download config-list">
+                        <a href="/app" on:click={()=>{config =  false}} class="download config-list">
                             <header>
                                 <div class="hd">
                                     <span>
@@ -100,12 +90,7 @@
                                 </div>
                                 <hr>
                             </header>
-                            <main>
-                                <div class="mn">
-                                    <p>&hArr;</p>
-                                </div>
-        
-                            </main>
+                            
                         </a>
                         <a href="/updates" on:click={()=>{config =  false}} class="faq config-list">
                             <header>
@@ -124,13 +109,10 @@
                                 </div>
                                 <hr>
                             </header>
-                            <main>
-                                <div class="mn">
-                                    <p>&hArr;</p>
-                                </div>
-        
-                            </main>
+                            
                         </a>
+
+                        <hr>
         
                         <a href="tel://0880164455" class="supportus config-list">
                             <header>
@@ -247,12 +229,13 @@
     opacity: 0;
     clip-path: circle(0);
     .cfg-page{
-            padding: 2rem 1rem 1rem 1rem;
+            padding: 5rem 1rem 1rem 1rem;
             
             main{
                 padding: 20px 10px;
                 .mn{
                     .config-list{
+                        border: var(--gn) solid 1px;
                         margin: 2rem 0;
                         display: block;
                         header{

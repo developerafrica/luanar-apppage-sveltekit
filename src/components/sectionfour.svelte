@@ -91,20 +91,20 @@
                     }
                     main{
                         background-image: url('/maskgroup.png');
-                        background-size: contain;
+                        background-size: cover;
                         background-position: center;
                         background-repeat: no-repeat;                        
                         .mn{
                             .card-container{
                                 .card{
 
-                                    padding: 1rem;
+                                    padding: 0.5rem 1rem;
                                     border-radius: 4px; 
                                     display: flex;
                                     align-items: center;
                                     justify-content: space-between;
                                     img{
-                                        width: 60px;
+                                        width: 45px;
                                         margin: 1rem;
                                     }
                                     .cd-txt{
@@ -122,7 +122,7 @@
                     footer{
                         p{
                             @include font(var(--bl), 1.2rem, 600);
-                            padding: 1rem 0;
+                            padding: 0.25rem 0.2;
                            a{
                             color: var(--bl) !important;
                            }
@@ -157,16 +157,16 @@
                                         h1{
                                             font-size: 1.6rem !important;
                                             letter-spacing: 1px;
-                                            margin: 1rem 0;
+                                            margin: 0.2rem 0;
                                             
                                         }
                                         .cdtb{
-                                            padding: 1rem 0;
+                                            padding: 2rem 0 0 0;
                                             button{
                                                 p{
                                                     @include font(var(--wc), 1.16rem, 600);
                                                     background: var(--d-pm);
-                                                    padding: 1rem;
+                                                    padding: 1rem 2.5rem;
                                                     border-radius: 4px;
                                                     color: var(--wc) !important;
                                                     letter-spacing: 1.3px;

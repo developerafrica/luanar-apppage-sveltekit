@@ -87,7 +87,7 @@
             
             
             .ft{
-                padding: 2rem;
+                padding: 0.5rem;
                 .popup{
                     border-radius: 5px;
                     background-image: url("/bg.png");
@@ -96,13 +96,16 @@
                     background-repeat: no-repeat;
                     background-color: rgba(0, 0, 0, 0.723);
                     background-blend-mode: multiply;
-                    padding: 0.5rem;
+                    padding: 0.09rem;
                     display: flex;
                     justify-content: space-evenly;
                     align-items: center;
+                    svg{
+                        width: 45px;
+                    }
                     .txt{
                         h1{
-                            @include font(white, 1.6rem, 700);
+                            @include font(white, 1.3rem, 700);
                         }
                     }
                 }
