@@ -58,15 +58,7 @@ class UuidObj {
     };
 }
 
-class ArtistObj{
-    constructor(nm,av, ds, pd){
-        this.name = nm;
-        this.avatar = av;
-        this.id = UuidObj.uuid();
-        this.description = ds;
-        this.products = pd;
-    }
-}
+
 
 class ProductObj{
     constructor(tl, tp, pr, sz, im){
@@ -79,19 +71,25 @@ class ProductObj{
     }
 } 
 
+class UserObj{
+    constructor(nm, ds,pd){
+        this.name = nm;
+        this.id = UuidObj.uuid();
+        this.description = ds;
+        this.products = pd;
+    }
+}
+
 
 
 
 const data = [
-    new ArtistObj("yamikani njiragoma", "3d image", "3d artist", [
-        new ProductObj("my yellow", "drawing", 75.00, "23-45 inches", "/maka3.png")
+    new UserObj("developer africa mw", "learn programming, web, software development and mobile app development", [
+        new ProductObj("programming", "programming", 0, "", "/bt2.png")
     ]),
-    new ArtistObj("yamikani njiragoma", "3d image", "3d artist", [
-        new ProductObj("my yellow", "drawing", 75.00, "23-45 inches", "/maka4.png")
+    new UserObj("K foods", "order your meals through whatsapp", [
+        new ProductObj("resturant", "food", 0, "", "/bt3.cms")
     ]),
-    new ArtistObj("yamikani njiragoma", "3d image", "3d artist", [
-        new ProductObj("my yellow", "drawing", 75.00, "23-45 inches", "/maka5.png")
-    ])
 ]
 
 export const stores = writable({data})

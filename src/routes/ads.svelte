@@ -11,9 +11,10 @@
             </div>
         </header>
 
+        
         <div class="card-container">
             <div class="cd-cnt">
-                {#each storesData as {id,name, products}}
+                {#each storesData as {id,name,description,products}}
 
                 <div class="card">
                     <div class="cd">
@@ -31,16 +32,16 @@
                             </header>
                             <main>
                                 <div class="mn">
-                                    <img src="/bt2.png" alt="artists work">
+                                    <img src="{products[0].image}" alt="artists work">
                                 </div>
                             </main>
                             <footer>
                                 <div class="ft">
                                     <div class="art-tag">
-                                        <p>service</p>
+                                        <p>{products[0].type}</p>
                                     </div>
                                     <div class="art-txt">
-                                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores, dolore!</p>
+                                        <p>{description}</p>
                                     </div>
                                     <div class="art-link">
                                         <a href="products/{id}">
@@ -112,7 +113,7 @@
                 .cd-cnt{
                     padding: 0.5rem;
                     .card{
-                        background: white;
+                        background: hsl(0, 0%, 90%);
                         margin:1.1rem 0;
                         border-radius: 4px;
                         box-shadow: rgba(0, 0, 0, 0.376) 0 4px 4px 1px;

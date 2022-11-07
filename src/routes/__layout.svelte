@@ -133,7 +133,10 @@
                             </header>
                             <main>
                                 <div class="mn">
-                                    <p>&hArr;</p>
+                                    <p>peter butao</p>
+                                    <p>peterethanbutao@gmail.com</p>
+                                    <p>0880164455</p>
+
                                 </div>
         
                             </main>
@@ -235,9 +238,10 @@
                 padding: 20px 10px;
                 .mn{
                     .config-list{
-                        border: var(--gn) solid 1px;
+                        border: var(--l-gn) solid 1px;
                         margin: 2rem 0;
                         display: block;
+                        border-radius: 4px;
                         header{
                             .hd{
                                 display: flex;
