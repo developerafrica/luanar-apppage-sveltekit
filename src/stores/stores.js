@@ -88,10 +88,10 @@ const data = [
         new ProductObj("developer", "coding services", 0, "", "/bt2.png")
     ]),
     new UserObj("K foods", "order your meals through whatsapp", [
-        new ProductObj("resturant", "food", 0, "", "/bt3.cms")
+        new ProductObj("resturant", "food", 0, "", "/Group 364.png")
     ]),
     new UserObj("developer africa mw", "learn programming, web, software development and mobile app development", [
-        new ProductObj("programming", "programming", 0, "", "/1.png")
+        new ProductObj("programming", "programming", 0, "", "/Rectangle 170.png")
     ]),
 ]
 
