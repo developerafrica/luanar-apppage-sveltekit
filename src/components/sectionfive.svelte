@@ -107,10 +107,19 @@
                     }
                 }
             }
+            main{
+                .mn{
+                    img{
+                        margin: auto;
+                        height: 200px;
+                    }
+                }
+            }
             .card-container{
                 .cd-cnt{
                     padding: 0.5rem;
                     .card{
+                        width: 100%;
                         background: white;
                         margin:1.1rem 0;
                         border-radius: 4px;
@@ -195,6 +204,16 @@
                         }
 
                     }
+                }
+            }
+        }
+    }
+    @media only screen and (min-width: 700px){
+        .card-container{
+            .cd-cnt{
+                display: flex;
+                .card{
+                    width: 50%;
                 }
             }
         }

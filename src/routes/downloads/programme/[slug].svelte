@@ -21,7 +21,7 @@
     <div class="art-download">
         {#each campuslist as cl}
         <button>
-            <a href="/downloads/apk/{cl.programme}">{cl.programme}</a>
+            <a href="/{cl.app}" download="LUANAR">{cl.displayName}</a>
         </button>
         {/each}
     </div>

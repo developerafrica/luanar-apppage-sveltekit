@@ -75,6 +75,8 @@
 </section>
 <style lang="scss">
     .index-container{
+        max-width: 1200px;
+        margin: auto;
         .sects{
             padding: 1rem;
         }
@@ -108,6 +110,16 @@
                             @include font(white, 1.3rem, 700);
                         }
                     }
+                }
+            }
+        }
+    }
+    @media (min-width: 700px){
+        .index-container{
+            footer{                
+                .ft{
+                    margin-left: auto;
+                    width: 350px;
                 }
             }
         }

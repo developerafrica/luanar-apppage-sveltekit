@@ -26,7 +26,7 @@
     <footer>
         <div class="ft">
           <button>
-          <a href="/downloads/">OFFICIAL DOWNLOAD </a>
+          <a href="/downloads/programme/bunda">OFFICIAL DOWNLOAD </a>
           </button>
          
           <div class="gnline"></div>
@@ -36,6 +36,8 @@
 </section>
 <style lang="scss">
     .index-container{
+        max-width: 700px;
+        margin: auto;
         .sects{
             padding: 1rem;
         }

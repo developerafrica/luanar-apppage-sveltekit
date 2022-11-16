@@ -254,31 +254,6 @@
                             }
                         }
                     }
-                    .app-settings{
-                        main{
-                            .mn{
-                                .theme-toggle{
-                                    padding: 1.1rem 0.5rem;
-                                    button{
-                                        background: var(--l-gr);
-                                        border-radius: 4px;
-                                        display: flex;
-                                        align-items: center;
-                                        padding: 0.5rem;
-                                        box-shadow: rgba(0, 0, 0, 0.22) 0 4px 4px 0;
-                                        p{
-                                            @include font(var(--tc), 1.3rem, 600);
-                                            padding: 0 0.5rem;
-                                        }
-                                        svg{
-                                            width: 18px;
-                                        }
-                                    }
-                                }
-                            }
-                        }
-
-                    }
                     
                 }
             }
@@ -374,5 +349,11 @@
             }
         }
     }
+}
+@media only screen and (min-width: 700px){
+    .config{
+        width: 30%;
+    }
+
 }
 </style>

@@ -22,7 +22,7 @@
     <div class="art-download">
         <h1>{apl.programme}</h1>
         <button>
-            <a href={apl.app}>{apl.programme} download</a>
+            <a href={apl.app} download="LUANAR">{apl.programme} download</a>
         </button>
         <main>
             <div class="mn">
